@@ -1,6 +1,6 @@
 from typing import List
 
-def partition(data, low, high) -> List[int]:
+def partition(arr, low, high) :
    i = ( low-1 )
    pivot = arr[high]               # pivot element
    for j in range(low , high):
