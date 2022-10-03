@@ -19,7 +19,7 @@ def quick_sort(arr,low,high):
       # sort the partitions
       quick_sort(arr, low, pi-1)
       quick_sort(arr, pi+1, high)
-   return 
+   return arr
 
 
 input_data = input()
